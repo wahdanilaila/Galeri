@@ -1,0 +1,93 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #95c68dcc;
+}
+
+.background {
+  width: 430px;
+  height: 520px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+form {
+  height: 390px;
+  width: 370px;
+  background-color: #385336b2;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+  border: 2px solid #8cb786cc;
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 50px;
+}
+
+form * {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}   
+
+form h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 30px; /* Added a margin bottom for spacing */
+}
+
+input {
+  display: block;
+  height: 40px; /* Reduced height for a more compact form */
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 5px; /* Changed border-radius for consistency */
+  padding: 0 50px; /* Increased padding for better input appearance */
+  margin-top: 10px; /* Adjusted margin-top for spacing */
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #e5e5e5;
+  text-align: center;
+}
+
+#button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #080710;
+  padding: 12px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#button:hover {
+  background-color: #080710;
+  color: #ffffff;
+}
+
+#register {
+  text-align: center;
+  padding: 15px;
+}
